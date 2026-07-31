@@ -10,3 +10,17 @@ header  {
     margin: 0   auto;
     padding: 16px;
 }
+
+    main {
+            background-color: #FFFFFF;
+            color: azure;
+    }
+
+    .artigo-autor {
+        font-weight: bold;
+    }
+
+
+    article     {
+        display: flex;
+    }
