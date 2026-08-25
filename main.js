@@ -5,6 +5,13 @@ const botoes = document.querySelectorAll("button);
         botao.addEventListener("click", botaoClicado);
         function botaoClicado () {
             conslole.log("fui clicado");
-            let texto = botao.add
+            let texto = botao.querySelector("span");
+            if (curtiu === false) {
+                texto.textContent++;
+                curtiu = true;
+            } else {
+                texto.textContent--;
+                curtiu = false;
+            }
         }
     })
