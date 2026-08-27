@@ -26,3 +26,16 @@ main {
     article {
         display: flex;  /* contâiner flexível */
     }
+
+    footer {
+        background-color: aqua;
+        text-align: center;
+        min-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    div {
+        margin: 0 auto;
+        padding: 20x;
+    }
